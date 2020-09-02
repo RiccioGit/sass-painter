@@ -1,5 +1,19 @@
 @import "partials/_variables.scss";
+@import "partials/_common.scss";
 
-body {
-  padding: 0;
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+
+@import "partials/_header.scss";
+@import "partials/_main.scss";
+@import "partials/_footer.scss"

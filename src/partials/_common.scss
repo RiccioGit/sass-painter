@@ -1,0 +1,6 @@
+@mixin nav-links {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}

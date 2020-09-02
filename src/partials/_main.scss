@@ -1,0 +1,79 @@
+main {
+
+  #nav_menu {
+
+    height: 65px;
+    width: 100%;
+
+    background-color: $bg_neutral;
+
+    #menu {
+
+      display: flex;
+      align-items: center;
+
+      height: 100%;
+
+      padding: 0 350px;
+
+      list-style-type: none;
+
+      li {
+
+        margin-right: 25px;
+
+        font-size: 20px;
+
+        cursor: pointer;
+
+        color: $col_links;
+
+      }
+
+    }
+  }
+
+  #beginners {
+
+    position: relative;
+    height: 900px;
+
+    padding-top: 50px;
+
+    background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg);
+    background-repeat: no-repeat;
+
+    text-align: center;
+    color: #fff;
+
+    h2 {
+
+      font-size: 36px;
+
+    }
+
+    p {
+
+      margin: 20px 0 40px 0;
+
+      font-size: 18px;
+    }
+
+    span {
+
+      font-size: 18px;
+
+      cursor: pointer;
+
+      img {
+
+        height: 35px;
+
+        margin-right: 20px;
+
+      }
+
+    }
+
+  }
+}

@@ -4,4 +4,6 @@ mix
   .js('src/app.js', 'dist/')
   .sass('src/app.scss', 'dist/')
   .copy('src/*.html', 'dist/')
+  .copyDirectory('src/img', 'dist/img')
+  .options({ processCssUrls: false })
 ;
